@@ -5,12 +5,11 @@ const User = props => {
   if (props.children) {
     return (
       <div>
-        {" "}
         Name : {props.children} | Age : {age}
       </div>
     );
   }
-  return <div />;
+  return <div>Not found</div>;
 };
 
 export default User;
